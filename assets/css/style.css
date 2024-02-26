@@ -46,13 +46,15 @@ $gr-2: linear-gradient(170deg, #b4ec51 0%, #429321 100%);
 $gr-3: linear-gradient(170deg, #c86dd7 0%, #3023ae 100%);
 
 .gr-1 {
-  background: linear-gradient(170deg, #106eea 0%, #1d3ede 100%);
+  background: linear-gradient(170deg, #0078d2 0%, #1d3ede 100%);
 }
 .gr-2 {
-  background: linear-gradient(170deg, #b4ec51 0%, #429321 100%);
+/*   background: linear-gradient(170deg, #b4ec51 0%, #429321 100%); */  
+  background: linear-gradient(170deg, #0078d2 0%, #1d3ede 100%);
 }
 .gr-3 {
-  background: linear-gradient(170deg, #c86dd7 0%, #3023ae 100%);
+/*   background: linear-gradient(170deg, #c86dd7 0%, #3023ae 100%); */
+  background: linear-gradient(170deg, #0078d2 0%, #1d3ede 100%);
 }
 
 * {
