@@ -160,6 +160,31 @@ $gr-3: linear-gradient(170deg, #c86dd7 0%, #3023ae 100%);
 }
 
 
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  /* For extra small devices (phones) */
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* For small devices (tablets) */
+  .column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* For medium devices (desktops) */
+  .column {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
